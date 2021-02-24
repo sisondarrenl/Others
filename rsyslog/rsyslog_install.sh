@@ -12,3 +12,5 @@ chmod 600 /etc/rsyslog.conf
 #initialize rsyslog
 systemctl restart rsyslog
 systemctl enable rsyslog
+
+touch /var/log/DSM.log
