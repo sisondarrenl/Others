@@ -5,7 +5,7 @@ yum update -y
 yum install squid -y
 
 #Configure ryslog.conf
-curl -LO https://raw.githubusercontent.com/sisondarrenl/Automation/main/rsyslog/rsyslog.conf
+curl -LO https://raw.githubusercontent.com/sisondarrenl/Automation/main/squid/squid.conf
 mv rsyslog.conf /etc/squid/squid.conf
 chmod 600 /etc/squid/squid.conf
                 
