@@ -10,5 +10,5 @@ mv rsyslog.conf /etc/rsyslog.conf
 chmod 600 /etc/rsyslog.conf
                 
 #initialize rsyslog
-service rsyslog enable
-service rsyslog restart
+systemctl restart rsyslog
+systemctl enable rsyslog
